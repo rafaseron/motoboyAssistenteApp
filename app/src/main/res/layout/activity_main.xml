@@ -48,5 +48,48 @@
         android:inputType="number"
         android:maxLength="8" />
 
+    <TextView
+        android:id="@+id/txtWhatsapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/edtIfood_ID"
+        android:text="WhatsApp sem Contato"
+        app:layout_constraintStart_toStartOf="@+id/edtIfood_ID"
+        android:layout_marginTop="40dp"
+        android:textSize="30sp"
+        android:textColor="@color/green"
+        />
+    <TextView
+        android:id="@+id/txtWhatsapp_tutorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insira o numero para enviar mensagem sem adicionar"
+        app:layout_constraintTop_toBottomOf="@+id/txtWhatsapp"
+        app:layout_constraintStart_toStartOf="@+id/txtWhatsapp"
+        />
+
+    <EditText
+        android:id="@+id/edtTelefone_DDI"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:hint="DDI ex: 55"
+        android:maxLength="2"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/txtWhatsapp_tutorial"
+        app:layout_constraintStart_toStartOf="@+id/txtWhatsapp"
+        />
+
+    <EditText
+        android:id="@+id/edtTelefone_numero"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:hint=" (67)91234-5678"
+        android:maxLength="11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edtTelefone_DDI"
+        app:layout_constraintTop_toTopOf="@+id/edtTelefone_DDI"
+        android:inputType="number" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
