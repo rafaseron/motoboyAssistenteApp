@@ -95,7 +95,7 @@
     <TextView
         android:id="@+id/txtIfoodTelefoneCompleto"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="1dp"
         app:layout_constraintTop_toBottomOf="@+id/edtIfood_ID"
         app:layout_constraintStart_toStartOf="@+id/edtIfood_ID"
         android:visibility="invisible"
@@ -108,7 +108,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/btnLigar"
-        android:layout_marginTop="5dp"
         android:backgroundTint="@color/red"
         />
 
@@ -117,7 +116,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="@color/green"
-        app:layout_constraintTop_toTopOf="@+id/btnIfoodLigar" />
+        app:layout_constraintTop_toBottomOf="@id/btnIfoodLigar"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cvwWhatsapp"
@@ -196,7 +195,7 @@
     <TextView
         android:id="@+id/txtWhatsappCompleto"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="1dp"
         app:layout_constraintStart_toStartOf="@+id/edtTelefone_DDI"
         app:layout_constraintTop_toBottomOf="@id/edtTelefone_DDI"
         android:visibility="invisible"
