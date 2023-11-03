@@ -21,10 +21,15 @@ class MainActivity : AppCompatActivity() {
             telefone = findViewById(R.id.edtTelefone_numero)
         }
         setupViews()
-        fun botaoIfood(){
+        fun ifoodCompleto(){
             val telefoneIfoodCompleto = (ifoodTelefone.toString())+";"+(ifoodID.toString())
         }
-        botaoIfood()
+        ifoodCompleto()
+
+        fun whatsappCompleto(){
+            val telefoneWhatsappCompleto = "wa.me/"+(telefoneDDI.toString())+(telefone.toString())
+        }
+        whatsappCompleto()
 
 
     }
