@@ -45,7 +45,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtAtencao"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:hint="705 8080"
+        android:hint="007 0110"
         android:maxLength="7"
         android:inputType="number" />
 
