@@ -4,4 +4,6 @@
     <string name="txtIfood">iFoods Calls</string>
     <string name="txtInsert">Enter the Ifood command phone number</string>
     <string name="edt_Ifood_ID">ID example 123456778</string>
+    <string name="btnLigar">Call</string>
+    <string name="btnMensagem">Message</string>
 </resources>

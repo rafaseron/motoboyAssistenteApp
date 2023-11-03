@@ -47,12 +47,23 @@
         android:hint="@string/edt_Ifood_ID"
         android:inputType="number"
         android:maxLength="8" />
+    <Button
+        android:id="@+id/btnIfoodLigar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/edtIfood_ID"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/btnLigar"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/red"
+        />
 
     <TextView
         android:id="@+id/txtWhatsapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/edtIfood_ID"
+        app:layout_constraintTop_toBottomOf="@+id/btnIfoodLigar"
         android:text="WhatsApp sem Contato"
         app:layout_constraintStart_toStartOf="@+id/edtIfood_ID"
         android:layout_marginTop="40dp"
@@ -90,6 +101,17 @@
         app:layout_constraintStart_toEndOf="@+id/edtTelefone_DDI"
         app:layout_constraintTop_toTopOf="@+id/edtTelefone_DDI"
         android:inputType="number" />
+    <Button
+        android:id="@+id/btnMensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/edtTelefone_DDI"
+        android:text="@string/btnMensagem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/green"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
