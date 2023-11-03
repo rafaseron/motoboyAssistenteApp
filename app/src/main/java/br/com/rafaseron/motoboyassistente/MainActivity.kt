@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         fun whatsappCompleto(){
-            val telefoneWhatsappCompleto = "wa.me/"+(telefoneDDI.text.toString())+(telefone.text.toString())
+            val telefoneWhatsappCompleto = "https://wa.me/"+(telefoneDDI.text.toString())+(telefone.text.toString())
             txtWhatsapp.text = telefoneWhatsappCompleto
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(telefoneWhatsappCompleto))
             startActivity(intent)
