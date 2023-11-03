@@ -58,11 +58,19 @@
         android:hint="@string/edt_Ifood_ID"
         android:inputType="number"
         android:maxLength="8" />
+    <TextView
+        android:id="@+id/txtIfoodTelefoneCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/edtIfood_ID"
+        app:layout_constraintStart_toStartOf="@+id/edtIfood_ID"
+        android:text="linkar com variavel telefoneIfoodCompleto"
+        />
     <Button
         android:id="@+id/btnIfoodLigar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/edtIfood_ID"
+        app:layout_constraintTop_toBottomOf="@+id/txtIfoodTelefoneCompleto"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/btnLigar"
@@ -112,11 +120,19 @@
         app:layout_constraintStart_toEndOf="@+id/edtTelefone_DDI"
         app:layout_constraintTop_toTopOf="@+id/edtTelefone_DDI"
         android:inputType="number" />
+    <TextView
+        android:id="@+id/txtWhatsappCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/edtTelefone_DDI"
+        app:layout_constraintTop_toBottomOf="@id/edtTelefone_DDI"
+        android:text="linkar com val whatsappCompleto"
+        />
     <Button
         android:id="@+id/btnMensagem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/edtTelefone_DDI"
+        app:layout_constraintTop_toBottomOf="@+id/txtWhatsappCompleto"
         android:text="@string/btnMensagem"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

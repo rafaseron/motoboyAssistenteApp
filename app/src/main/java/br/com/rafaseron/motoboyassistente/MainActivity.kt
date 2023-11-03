@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity() {
             telefoneDDI = findViewById(R.id.edtTelefone_DDI)
             telefone = findViewById(R.id.edtTelefone_numero)
         }
+        setupViews()
+        fun botaoIfood(){
+            val telefoneIfoodCompleto = (ifoodTelefone.toString())+";"+(ifoodID.toString())
+        }
+        botaoIfood()
 
 
     }
