@@ -4,7 +4,8 @@ desenvolvido em Kotlin para Android nativo.
 
 FOTO COM ADIÇÃO DE CARDVIEW:
 
-![Captura de tela 2023-11-03 131027](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/fb87f804-4039-4c18-b746-a0241be24d86)
+![Captura de tela 2023-11-03 134322](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/d93c7bba-3861-44f5-aa0d-7e057ca40d32)
+
 
 
 FOTOS DO APP PRONTO E FUNCIONAL:
