@@ -4,27 +4,60 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:layout_marginRight="16dp">
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/vwPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/red"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvwIfood"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwPrincipal"
+        app:layout_constraintEnd_toEndOf="@+id/vwPrincipal"
+        app:layout_constraintStart_toStartOf="@+id/vwPrincipal"
+        app:layout_constraintTop_toBottomOf="@+id/vwPrincipal">
+
+        <TextView
+            android:id="@+id/txtIfood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/txtIfood"
+            android:textColor="@color/red"
+            android:textSize="30sp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@id/cvwIfood" />
+
+    </androidx.cardview.widget.CardView>
 
     <TextView
-        android:id="@+id/txtIfood"
+        android:id="@+id/txtInvisible1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/vwPrincipal"
         android:text="@string/txtIfood"
         android:textColor="@color/red"
         android:textSize="30sp"
         android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginStart="16dp" />
+        android:layout_marginStart="16dp"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/txtInsira"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/txtIfood"
-        app:layout_constraintStart_toStartOf="@+id/txtIfood"
+        app:layout_constraintTop_toBottomOf="@+id/txtInvisible1"
+        app:layout_constraintStart_toStartOf="@+id/txtInvisible1"
         android:text="@string/txtInsert" />
     <TextView
         android:id="@+id/txtAtencao"
@@ -79,24 +112,62 @@
         android:backgroundTint="@color/red"
         />
 
-    <TextView
-        android:id="@+id/txtWhatsapp"
-        android:layout_width="wrap_content"
+    <View
+        android:id="@+id/vwWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/green"
+        app:layout_constraintTop_toTopOf="@+id/btnIfoodLigar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvwWhatsapp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/btnIfoodLigar"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:background="@color/white"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/vwWhatsapp"
+        app:layout_constraintEnd_toEndOf="@+id/vwWhatsapp"
+        app:layout_constraintStart_toStartOf="@id/vwPrincipal"
+        app:layout_constraintTop_toBottomOf="@id/vwWhatsapp">
+
+        <TextView
+            android:id="@+id/txtWhatsapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="@string/txtWhatsapp"
+            android:textSize="30sp"
+            android:textColor="@color/green" />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/txtInvisible2"
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/vwWhatsapp"
         android:text="@string/txtWhatsapp"
         app:layout_constraintStart_toStartOf="@+id/txtAtencao"
         android:layout_marginTop="40dp"
         android:textSize="30sp"
         android:textColor="@color/green"
+        android:visibility="invisible"
         />
     <TextView
         android:id="@+id/txtWhatsapp_tutorial"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/txtWhatsapp_tutorial"
-        app:layout_constraintTop_toBottomOf="@+id/txtWhatsapp"
-        app:layout_constraintStart_toStartOf="@+id/txtWhatsapp"
+        app:layout_constraintTop_toBottomOf="@+id/txtInvisible2"
+        app:layout_constraintStart_toStartOf="@+id/txtInvisible2"
+        android:layout_marginEnd="16dp"
         />
 
     <EditText
@@ -108,7 +179,7 @@
         android:maxLength="2"
         android:inputType="number"
         app:layout_constraintTop_toBottomOf="@id/txtWhatsapp_tutorial"
-        app:layout_constraintStart_toStartOf="@+id/txtWhatsapp"
+        app:layout_constraintStart_toStartOf="@+id/txtInvisible2"
         />
 
     <EditText
