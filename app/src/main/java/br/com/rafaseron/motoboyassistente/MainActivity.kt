@@ -37,12 +37,12 @@ class MainActivity : AppCompatActivity() {
         setupViews()
 
         fun ifoodCompleto(){
-            val telefoneIfoodCompleto = "0800"+(ifoodTelefone.toString())+";"+(ifoodID.toString())
+            val telefoneIfoodCompleto = "0800"+(ifoodTelefone.text.toString())+";"+(ifoodID.text.toString())
             txtIfood.text = telefoneIfoodCompleto
         }
 
         fun whatsappCompleto(){
-            val telefoneWhatsappCompleto = "wa.me/"+(telefoneDDI.toString())+(telefone.toString())
+            val telefoneWhatsappCompleto = "wa.me/"+(telefoneDDI.text.toString())+(telefone.text.toString())
             txtWhatsapp.text = telefoneWhatsappCompleto
 
         }
