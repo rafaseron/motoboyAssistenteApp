@@ -1,5 +1,7 @@
 package br.com.rafaseron.motoboyassistente
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -39,11 +41,15 @@ class MainActivity : AppCompatActivity() {
         fun ifoodCompleto(){
             val telefoneIfoodCompleto = "0800"+(ifoodTelefone.text.toString())+";"+(ifoodID.text.toString())
             txtIfood.text = telefoneIfoodCompleto
+            val intent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$telefoneIfoodCompleto"))
+            startActivity(intent)
         }
 
         fun whatsappCompleto(){
             val telefoneWhatsappCompleto = "wa.me/"+(telefoneDDI.text.toString())+(telefone.text.toString())
             txtWhatsapp.text = telefoneWhatsappCompleto
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(telefoneWhatsappCompleto))
+            startActivity(intent)
 
         }
 
