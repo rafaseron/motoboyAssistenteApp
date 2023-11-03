@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             telefone = findViewById(R.id.edtTelefone_numero)
         }
         setupViews()
+
         fun ifoodCompleto(){
             val telefoneIfoodCompleto = (ifoodTelefone.toString())+";"+(ifoodID.toString())
         }
