@@ -43,7 +43,8 @@
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
         app:layout_constraintTop_toBottomOf="@+id/txtAtencao"
-        app:layout_constraintStart_toStartOf="@+id/txtAtencao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:hint="705 8080"
         android:maxLength="7"
         android:inputType="number" />
@@ -84,7 +85,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/btnIfoodLigar"
         android:text="@string/txtWhatsapp"
-        app:layout_constraintStart_toStartOf="@+id/edtIfood_ID"
+        app:layout_constraintStart_toStartOf="@+id/txtAtencao"
         android:layout_marginTop="40dp"
         android:textSize="30sp"
         android:textColor="@color/green"
