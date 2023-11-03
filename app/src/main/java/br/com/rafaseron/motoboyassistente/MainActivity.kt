@@ -37,6 +37,9 @@ class MainActivity : AppCompatActivity() {
             txtIfood = findViewById(R.id.txtIfoodTelefoneCompleto)
         }
         setupViews()
+        //autopreencher o DDI como do Brasil
+        telefoneDDI.setText("55")
+        telefoneDDI.setSelection(telefoneDDI.text.length)
 
         fun ifoodCompleto(){
             val telefoneIfoodCompleto = "0800"+(ifoodTelefone.text.toString())+";"+(ifoodID.text.toString())
