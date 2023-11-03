@@ -6,4 +6,6 @@
     <string name="btnLigar">Ligar</string>
     <string name="btnMensagem">Mensagem</string>
     <string name="txtWhatsapp">WhatsApp sem Contato</string>
+    <string name="txtWhatsapp_tutorial">Insira o numero de telefone para enviar mensagem sem adicionar o contato</string>
+    <string name="txtAtencao">ATENÇÃO: Não escreva o 0800 (ele é adicionado automaticamente)</string>
 </resources>

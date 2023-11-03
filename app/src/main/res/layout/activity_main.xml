@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_marginRight="16dp">
 
     <TextView
         android:id="@+id/txtIfood"
@@ -25,16 +26,26 @@
         app:layout_constraintTop_toBottomOf="@+id/txtIfood"
         app:layout_constraintStart_toStartOf="@+id/txtIfood"
         android:text="@string/txtInsert" />
+    <TextView
+        android:id="@+id/txtAtencao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAtencao"
+        android:layout_marginRight="16dp"
+        app:layout_constraintStart_toStartOf="@+id/txtInsira"
+        app:layout_constraintTop_toBottomOf="@+id/txtInsira"
+        android:textColor="@color/red"
+        />
 
     <EditText
         android:id="@+id/edtIfood_telefone"
         android:layout_width="240dp"
         android:layout_height="48dp"
         android:layout_marginTop="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/txtInsira"
-        app:layout_constraintStart_toStartOf="@+id/txtInsira"
-        android:hint="0800 705 8080"
-        android:maxLength="11"
+        app:layout_constraintTop_toBottomOf="@+id/txtAtencao"
+        app:layout_constraintStart_toStartOf="@+id/txtAtencao"
+        android:hint="705 8080"
+        android:maxLength="7"
         android:inputType="number" />
 
     <EditText
@@ -74,7 +85,7 @@
         android:id="@+id/txtWhatsapp_tutorial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="insira o numero para enviar mensagem sem adicionar"
+        android:text="@string/txtWhatsapp_tutorial"
         app:layout_constraintTop_toBottomOf="@+id/txtWhatsapp"
         app:layout_constraintStart_toStartOf="@+id/txtWhatsapp"
         />

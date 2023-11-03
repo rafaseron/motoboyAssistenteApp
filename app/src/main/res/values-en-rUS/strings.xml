@@ -7,4 +7,6 @@
     <string name="btnLigar">Call</string>
     <string name="btnMensagem">Message</string>
     <string name="txtWhatsapp">WhatsApp Without Contact</string>
+    <string name="txtWhatsapp_tutorial">Enter the phone number to send a message without adding a contact</string>
+    <string name="txtAtencao">CAUTION: do not write 0800 (it is added automatically)</string>
 </resources>
