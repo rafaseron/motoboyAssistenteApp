@@ -3,6 +3,7 @@ aplicativo mobile para ajudar entregadores a ligar no 0800 do iFood e mandar men
 desenvolvido em Kotlin para Android nativo.
 
 FOTO COM ADIÇÃO DE CARDVIEW:
+
 ![Captura de tela 2023-11-03 131027](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/fb87f804-4039-4c18-b746-a0241be24d86)
 
 
