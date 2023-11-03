@@ -2,4 +2,6 @@
 <resources>
     <string name="app_name">Motoboy Assistente</string>
     <string name="txtIfood">iFoods Calls</string>
+    <string name="txtInsert">Enter the Ifood command phone number</string>
+    <string name="edt_Ifood_ID">ID example 123456778</string>
 </resources>

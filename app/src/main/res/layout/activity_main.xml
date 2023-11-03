@@ -18,5 +18,32 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="16dp" />
 
+    <TextView
+        android:id="@+id/txtInsira"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtIfood"
+        app:layout_constraintStart_toStartOf="@+id/txtIfood"
+        android:text="@string/txtInsert" />
+
+    <EditText
+        android:id="@+id/edtIfood_telefone"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtInsira"
+        app:layout_constraintStart_toStartOf="@+id/txtInsira"
+        android:hint="0800 705 8080"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtIfood_ID"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/edtIfood_telefone"
+        app:layout_constraintStart_toStartOf="@+id/edtIfood_telefone"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edt_Ifood_ID"
+        android:inputType="number" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
