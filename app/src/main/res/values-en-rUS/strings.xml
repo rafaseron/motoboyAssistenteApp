@@ -6,4 +6,5 @@
     <string name="edt_Ifood_ID">ID example 123456778</string>
     <string name="btnLigar">Call</string>
     <string name="btnMensagem">Message</string>
+    <string name="txtWhatsapp">WhatsApp Without Contact</string>
 </resources>

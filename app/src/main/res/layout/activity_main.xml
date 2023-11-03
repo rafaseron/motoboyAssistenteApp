@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/btnIfoodLigar"
-        android:text="WhatsApp sem Contato"
+        android:text="@string/txtWhatsapp"
         app:layout_constraintStart_toStartOf="@+id/edtIfood_ID"
         android:layout_marginTop="40dp"
         android:textSize="30sp"
