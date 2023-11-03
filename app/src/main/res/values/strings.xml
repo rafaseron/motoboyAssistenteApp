@@ -2,7 +2,7 @@
     <string name="app_name">Motoboy Assistente</string>
     <string name="txtIfood">Ligações do iFood</string>
     <string name="txtInsert">Insira o numero de telefone da comanda do Ifood</string>
-    <string name="edt_Ifood_ID">ID exemplo 123456778</string>
+    <string name="edt_Ifood_ID">ID exemplo 12345678</string>
     <string name="btnLigar">Ligar</string>
     <string name="btnMensagem">Mensagem</string>
     <string name="txtWhatsapp">WhatsApp sem Contato</string>
