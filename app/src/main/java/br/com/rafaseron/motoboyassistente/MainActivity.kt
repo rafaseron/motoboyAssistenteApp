@@ -40,6 +40,9 @@ class MainActivity : AppCompatActivity() {
         //autopreencher o DDI como do Brasil
         telefoneDDI.setText("55")
         telefoneDDI.setSelection(telefoneDDI.text.length)
+        //vamos auto prencher o DDD com o MS
+        telefone.setText("67")
+        telefone.setSelection(telefone.text.length)
 
         fun ifoodCompleto(){
             val telefoneIfoodCompleto = "0800"+(ifoodTelefone.text.toString())+";"+(ifoodID.text.toString())
