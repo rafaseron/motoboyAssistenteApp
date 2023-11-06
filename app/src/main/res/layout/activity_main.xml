@@ -109,6 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/btnLigar"
         android:backgroundTint="@color/red"
+        android:textColor="@color/white"
         />
 
     <View
@@ -210,6 +211,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/green"
+        android:textColor="@color/white"
         />
 
 
