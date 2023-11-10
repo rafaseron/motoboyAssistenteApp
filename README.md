@@ -2,23 +2,11 @@ motoboyAssistenteApp
 aplicativo mobile para ajudar entregadores a ligar no 0800 do iFood e mandar mensagem no whatsapp para clientes.
 desenvolvido em Kotlin para Android nativo.
 
-FOTO COM ADIÇÃO DE CARDVIEW:
+FOTOS DA VERSÃO FINAL:
 
-![Captura de tela 2023-11-03 134322](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/d93c7bba-3861-44f5-aa0d-7e057ca40d32)
+![Screenshot_2023-11-10-06-09-58-409_br com rafaseron motoboyassistente](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/63977660-4571-4db4-83bb-903002f2f8a5)
 
-
-
-FOTOS DO APP PRONTO E FUNCIONAL:
-
-![Screenshot_2023-11-03-02-57-56-059_br com rafaseron motoboyassistente](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/9aed57d5-ad95-423f-8eaf-b9d5457a5ad7)
-
-![Screenshot_2023-11-03-02-59-25-586_com miui securitycenter](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/b47e4ebe-3646-48d1-9957-8d6837e0d7f9)
-
-
-![Screenshot_2023-11-03-02-59-32-238_com miui securitycenter](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/883f70ed-1847-4609-bc8e-4780a96001df)
-
-
-
+![Screenshot_2023-11-10-06-09-49-603_br com rafaseron motoboyassistente](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/5546ce9d-ef51-4bc6-a3e5-50e42d586f2c)
 
 
 COMO FOI FEITA A LÓGICA PARA SER FEITO O APP:
