@@ -1,3 +1,6 @@
-adicao de modo escuro para o aplicativo (force dark mode)
+adicao de Day Night Material 3 Theme
 
-![Captura de tela 2023-11-10 053640](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/7e59ebfa-dad2-4606-bcdc-79fb39f263b0)
+![Screenshot_2023-11-10-06-09-58-409_br com rafaseron motoboyassistente](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/26aea55f-86cf-43e1-9d09-929ea6801fd7)
+
+
+![Screenshot_2023-11-10-06-09-49-603_br com rafaseron motoboyassistente](https://github.com/rafaseron/motoboyAssistenteApp/assets/63885470/09c86963-182c-4883-b22e-3f4ac9244442)
