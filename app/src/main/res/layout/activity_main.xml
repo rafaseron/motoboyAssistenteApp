@@ -31,7 +31,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:text="@string/txtIfood"
-            android:textColor="@color/white"
             android:textSize="30sp"
             android:visibility="visible"
             app:layout_constraintStart_toStartOf="@id/cvwIfood" />
@@ -107,8 +106,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:text="@string/btnLigar"
-        android:backgroundTint="@color/red"
-        android:textColor="@color/white"
+        style="@style/Widget.Material3.Button.TonalButton"
         />
 
     <View
@@ -136,8 +134,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:text="@string/txtWhatsapp"
-            android:textSize="30sp"
-            android:textColor="@color/white" />
+            android:textSize="30sp" />
 
 
 
@@ -207,8 +204,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="5dp"
-        android:backgroundTint="@color/green"
-        android:textColor="@color/white"
+        style="@style/Widget.Material3.Button.TonalButton"
         />
 
 
